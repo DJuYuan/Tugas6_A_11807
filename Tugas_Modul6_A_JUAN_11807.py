@@ -129,7 +129,7 @@ h1, h2, h3, h4, h5, h6, p {
 # Display the background animation and snowflakes
 st.markdown(christmas_background, unsafe_allow_html=True)
 
-# Menambahkan audio autoplay menggunakan HTML
+# Menambahkan audio autoplay menggunakan HTMLl
 try:
     with open(r"natal_lagu.mp3", "rb") as audio_file:
         audio_base64 = base64.b64encode(audio_file.read()).decode()
