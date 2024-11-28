@@ -8,7 +8,7 @@ import time
 import base64
 
 # Load the pre-trained model
-model = load_model(r'model_mobilenet.h5')  # Update with your model path
+model = load_model(r'gugelnet.h5')  # Update with your model path
 class_names = ['Matang', 'Mentah']
 
 # Function to preprocess and classify image
@@ -146,7 +146,7 @@ except FileNotFoundError:
 
 title_html = """
 <div style="text-align: center; color: white; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); font-size: 50px; font-weight: bold;">
-    🎄 Prediksi Kematangan Buah Naga - XXXX 🎅
+    🎄 Prediksi Kematangan Buah Naga - 1807 🎅
 </div>
 """
 st.markdown(title_html, unsafe_allow_html=True)
